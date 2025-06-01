@@ -80,13 +80,6 @@ export default function SamuelConfidenceLanding() {
             size="lg"
             className="w-full bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white border-0 shadow-xl py-4 text-lg font-semibold rounded-xl transition-all duration-300 mb-4"
             onClick={() => {
-              // Track the Lead event
-              if (typeof window !== "undefined" && window.fbq) {
-                window.fbq("track", "Lead", {
-                  content_name: "Join Free Channel",
-                  content_category: "Forex Signals",
-                })
-              }
               window.open("https://t.me/+p1dgFWcTtdc4YjY8", "_blank")
             }}
           >
@@ -102,13 +95,6 @@ export default function SamuelConfidenceLanding() {
               size="sm"
               className="border-white/30 text-white hover:bg-white/10"
               onClick={() => {
-                // Track the Contact event
-                if (typeof window !== "undefined" && window.fbq) {
-                  window.fbq("track", "Contact", {
-                    content_name: "Contact Admin",
-                    content_category: "Support",
-                  })
-                }
                 window.open("https://t.me/PIPSMASTER22", "_blank")
               }}
             >
