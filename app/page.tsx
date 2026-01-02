@@ -19,8 +19,8 @@ export default function SamuelConfidenceLanding() {
           <div className="w-16 h-16 mx-auto backdrop-blur-xl bg-white/20 border border-white/30 rounded-2xl flex items-center justify-center shadow-xl mb-4">
             <TrendingUp className="w-8 h-8 text-white" />
           </div>
-          <h1 className="text-2xl font-bold text-white">Pips Master</h1>
-          <p className="text-white/80">@PIPSMASTER22</p>
+          <h1 className="text-2xl font-bold text-white uppercase tracking-wider">TRADER TACTICS</h1>
+          <p className="text-white/80">@Tradertactics</p>
         </div>
 
         {/* Main Card */}
@@ -66,7 +66,7 @@ export default function SamuelConfidenceLanding() {
                 <Users className="w-4 h-4 text-green-400 mr-1" />
                 <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
               </div>
-              <div className="text-2xl font-bold text-white">24,66</div>
+              <div className="text-2xl font-bold text-white">17,700</div>
               <div className="text-sm text-white/70">Live Members</div>
             </div>
             <div className="text-center backdrop-blur-sm bg-white/5 rounded-xl p-3">
@@ -79,9 +79,7 @@ export default function SamuelConfidenceLanding() {
           <Button
             size="lg"
             className="w-full bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white border-0 shadow-xl py-4 text-lg font-semibold rounded-xl transition-all duration-300 mb-4"
-            onClick={() => {
-              window.open("https://t.me/+p1dgFWcTtdc4YjY8", "_blank")
-            }}
+            onClick={() => window.open("https://t.me/+poltdw-R09VkZmU8", "_blank")}
           >
             <MessageCircle className="w-5 h-5 mr-2" />
             JOIN FREE CHANNEL
@@ -93,12 +91,10 @@ export default function SamuelConfidenceLanding() {
             <Button
               variant="outline"
               size="sm"
-              className="border-white/30 text-white hover:bg-white/10"
-              onClick={() => {
-                window.open("https://t.me/PIPSMASTER22", "_blank")
-              }}
+              className="border-white/30 text-white hover:bg-white/10 bg-transparent"
+              onClick={() => window.open("https://t.me/Tradertactics", "_blank")}
             >
-              @PIPSMASTER22
+              @Tradertactics
             </Button>
           </div>
 
