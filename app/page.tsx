@@ -4,10 +4,9 @@ import { Button } from "@/components/ui/button"
 import { Check, MessageCircle, TrendingUp, Users } from "lucide-react"
 
 export default function SamuelConfidenceLanding() {
-  const trackSubscribe = (buttonName: string, url: string) => {
+  const trackSubscribe = (url: string) => {
     if (typeof window !== "undefined" && (window as any).fbq) {
       ;(window as any).fbq("track", "Subscribe", {
-        button_name: buttonName,
         content_name: "Telegram Channel Join",
       })
     }
@@ -89,7 +88,7 @@ export default function SamuelConfidenceLanding() {
           <Button
             size="lg"
             className="w-full bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white border-0 shadow-xl py-4 text-lg font-semibold rounded-xl transition-all duration-300 mb-4"
-            onClick={() => trackSubscribe("Main Join Button", "https://t.me/+poltdw-R09VkZmU8")}
+            onClick={() => trackSubscribe("https://t.me/+poltdw-R09VkZmU8")}
           >
             <MessageCircle className="w-5 h-5 mr-2" />
             JOIN FREE CHANNEL
@@ -102,7 +101,7 @@ export default function SamuelConfidenceLanding() {
               variant="outline"
               size="sm"
               className="border-white/30 text-white hover:bg-white/10 bg-transparent"
-              onClick={() => trackSubscribe("Admin Contact", "https://t.me/Tradertactics")}
+              onClick={() => window.open("https://t.me/Tradertactics", "_blank")}
             >
               @Tradertactics
             </Button>
