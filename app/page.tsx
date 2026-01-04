@@ -6,7 +6,7 @@ import { Check, MessageCircle, TrendingUp, Users } from "lucide-react"
 export default function SamuelConfidenceLanding() {
   const handleJoinClick = () => {
     if (typeof window !== "undefined" && (window as any).fbq) {
-      ;(window as any).fbq("track", "Subscribe")
+      ;(window as any).fbq("trackCustom", "Ads-by-Hameed")
     }
     window.open("https://t.me/+poltdw-R09VkZmU8", "_blank")
   }
