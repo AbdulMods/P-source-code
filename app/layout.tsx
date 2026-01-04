@@ -53,15 +53,7 @@ export default function RootLayout({
             fbq('track', 'PageView');
           `}
         </Script>
-        <noscript>
-          <img
-            height="1"
-            width="1"
-            style={{ display: "none" }}
-            src="https://www.facebook.com/tr?id=4059666817654292&ev=PageView&noscript=1"
-            alt=""
-          />
-        </noscript>
+        <noscript></noscript>
         {children}
         <Analytics />
       </body>
